@@ -1,0 +1,131 @@
+{
+  "name":"theme015",
+  "thumbnail":"theme_preview.png",
+  "screenshot":"theme_preview.png",    
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#727272",
+            "color3":"#ce4e48",
+            "color4":"#464646",
+            "color5":"#dbd9d7",
+            "color6":"#3e3e3e",
+            "color7":"#77736c"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#72d0eb",
+            "color3":"#83c028",
+            "color4":"#2f353e",
+            "color5":"#b4bec7",
+            "color6":"#434f5b",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#72d0eb",
+            "color3":"#83c028",
+            "color4":"#2f353e",
+            "color5":"#b4bec7",
+            "color6":"#434f5b",
+            "color7":"#ffffff"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#72d0eb",
+            "color3":"#83c028",
+            "color4":"#2f353e",
+            "color5":"#b4bec7",
+            "color6":"#434f5b",
+            "color7":"#ffffff"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#72d0eb",
+            "color3":"#83c028",
+            "color4":"#2f353e",
+            "color5":"#b4bec7",
+            "color6":"#434f5b",
+            "color7":"#ffffff"
+        }
+    },
+    "fontSwatch": {
+       "title": "Trebuchet",
+        "font1": {
+            "font-family": "Trebuchet",
+            "font-size": "36px",
+            "font-weight": "inherit",
+            "line-height": "40px",
+            "color": "@color-swatch1"
+        },
+        "font2": {
+            "font-family": "Trebuchet",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@color-swatch4"
+        },
+        "font3": {
+            "font-family": "Trebuchet",
+            "font-size": "21px",
+            "font-weight": "inherit",
+            "line-height": "24px",
+            "color": "@color-swatch2"
+        },
+        "font4": {
+            "font-family": "Trebuchet",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@dark"
+        },
+        "font5": {
+            "font-family": "Trebuchet",
+            "font-size": "19px",
+            "font-weight": "inherit",
+            "line-height": "22px",
+            "color": "@color-swatch2"
+        },
+        "font6": {
+            "font-family": "Arial",
+            "font-size": "14px",
+            "font-weight": "inherit",
+            "line-height": "22px",
+            "color": "@color-swatch2"
+        },
+        "font7": {
+            "font-family": "Trebuchet",
+            "font-size": "12px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch2",
+            "color-hover": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font8": {
+            "font-family": "Trebuchet",
+            "font-size": "18px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "Arvo",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "50px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "Arvo",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "50px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        }
+    }
+}
