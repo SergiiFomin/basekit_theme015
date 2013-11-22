@@ -17,7 +17,7 @@
 
                         <article class="span12">
 
-                            <h1 class="brand">{{widget('companyheader', 'companyheader', {"defaultlogo": asset('/images/logo.png')})|raw}}</h1>
+                            {{widget('logo', 'name', {"defaultlogo": asset('images/logo.png')})|raw}}
                             {{widget('line', 'line', {'thickness': 'inherit', 'padding': 'inherit', 'length':'inherit', 'align': 'center'})|raw}}
                             {{widget('navigation', 'navigation', {'align': 'left'})|raw}}
                             {{widget('space', 'space', {'height': '30'})|raw}}
@@ -44,6 +44,8 @@
 
                         <article class="span8">
 
+                            {{zone('main')|raw}}
+
                             {{widget('content', 'content', {content: '<h2>reserve your table</h2>', lines: 'all'})|raw}}
 
                             {{widget('image', 'aboutimage1', { 'src': asset('images/page2-img1.jpg'), 'imageWidth': '740px'})|raw}}
@@ -51,8 +53,6 @@
                             {{widget('content', 'aboutcontent1', {content: '<p>Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum <strong>call (952) 404-1100</strong> dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p><p>Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.</p>', lines: 'all'})|raw}}
 
                             {{widget('content', 'aboutlink1', {content: '<a href="#" class="link">click here to make a reservation online</a>', lines: 'all'})|raw}}
-
-                            {{zone('main')|raw}}
 
                         </article>
 
@@ -92,9 +92,8 @@
 
                             <article class="span3">
 
-                                {{widget('companyname', 'companyname', {"business": "sukura"})|raw}}
-                                {{widget('content', 'copyright_copy', {content: '&nbsp;&copy;&nbsp;2013', lines: 'all'})|raw}}
-                                {{widget('content', 'copyright_link', {content: '<a href="#">Privacy Policy</a>', lines: 'all'})|raw}}
+                                {{widget('companyname', 'companyname', {"business": "sakura"})|raw}}
+                                {{widget('profile', 'copyright', { 'profileType':'copyright' })|raw}}
                                 {{widget('space', 'space', {'height': '30'})|raw}}
 
                             </article>
